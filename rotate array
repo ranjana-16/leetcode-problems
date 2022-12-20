@@ -9,6 +9,7 @@ class Solution {
         while(k>0){
             x=myNums.peek();
             myNums.remove();
+            myNums.add(x);
             k--;
         }
         for(int i=n-1;i>-1;i--){
